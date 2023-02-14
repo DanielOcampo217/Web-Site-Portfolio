@@ -1,0 +1,817 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;600;700&display=swap");
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#contenedor_carga {
+    background-color: #3371B6;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    z-index: 10000;
+}
+
+#carga {
+    border: 15px solid #ccc;
+    border-top-color: #3371B6;
+    border-top-style: groove;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    -webkit-animation: girar 1.5s linear infinite;
+    -o-animation: girar 1.5s linear infinite;
+    animation: girar 1.5s linear infinite;
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    font-family: Orbitron;
+}
+
+.img1 {
+    background-image: url("./HD-wallpaper-code-programming-text-technology.jpg");
+    min-height: 100%;
+    position: relative;
+    opacity: 2.9;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 30px 70px;
+}
+
+.nombre {
+    cursor: pointer;
+    font-size: 40px;
+    color: white;
+    transition: 0.3s;
+}
+
+.nombre:hover {
+    transform: scale(1.3);
+}
+
+.nav-toggle {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+}
+
+.unorder {
+    display: flex;
+    margin: 40px 40px;
+}
+
+.stilo {
+    margin-right: 20px;
+    color: rgb(107, 106, 106);
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.stilo:hover {
+    color: white;
+}
+
+.box_a {
+    display: flex;
+    margin: 100px 400px;
+    margin-right: 0;
+    padding-bottom: 200px;
+}
+
+.present {
+    margin-left: 100px;
+}
+
+.titulo1 {
+    margin-left: 130px;
+    color: rgb(27, 27, 163);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text_2 {
+    margin-left: 30px;
+}
+
+.text_md {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.foto1 {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+}
+
+
+/*cuerpo*/
+
+.box-a,
+.box-b {
+    font-family: Play;
+    margin-bottom: 90px;
+}
+
+.abo {
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 45px;
+}
+
+.textoplano {
+    margin-top: 30px;
+}
+
+.text-lg {
+    margin-left: 150px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.section-front {
+    text-align: center;
+    margin-top: 65px;
+    font-size: 30px;
+}
+
+.logos1 {
+    margin-top: 40px;
+    display: flex;
+    margin-left: 160px;
+}
+
+.logo12 {
+    cursor: pointer;
+    width: 80px;
+    height: 100px;
+    margin-left: 70px;
+    transition: 0.2s;
+}
+
+.logo13 {
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100px;
+    height: 70px;
+    margin-left: 70px;
+    transition: 0.2s;
+}
+
+.logo1 {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    margin-left: 70px;
+    transition: 0.2s;
+}
+
+.logo12:hover {
+    transform: scale(1.3);
+}
+
+.logo1:hover {
+    transform: scale(1.3);
+}
+
+.logo13:hover {
+    transform: scale(1.3);
+}
+
+.section-front2 {
+    text-align: center;
+    margin-top: 90px;
+    font-size: 30px;
+}
+
+.logos2 {
+    margin-top: 40px;
+    display: flex;
+    margin-left: 0;
+}
+
+.logm {
+    cursor: pointer;
+    width: 190px;
+    height: 80px;
+    margin-left: 70px;
+    transition: 0.2s;
+}
+
+.logolar {
+    cursor: pointer;
+    width: 190px;
+    height: 100px;
+    margin-left: 70px;
+    transition: 0.2s;
+}
+
+.logolar:hover {
+    transform: scale(1.3);
+}
+
+.logm:hover {
+    transform: scale(1.3);
+}
+
+.logos3 {
+    margin-top: 40px;
+    display: flex;
+    margin-left: 350px;
+}
+
+.loglarge {
+    cursor: pointer;
+    margin-left: 100px;
+    width: 140px;
+    transition: 0.2s;
+}
+
+.loglarge:hover {
+    transform: scale(1.3);
+}
+
+.front1 {
+    padding-top: 40px;
+}
+
+.bn {
+    padding-top: 70px;
+}
+
+.btn-dark {
+    cursor: pointer;
+    background-color: #3371B6;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 13px 24px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.btn-dark:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/*Box b*/
+
+.abo {
+    padding-top: 40px;
+}
+
+.column1 {
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.column2 {
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 80px;
+    padding-bottom: 70px;
+}
+
+.know {
+    margin-left: 165px;
+}
+
+.textvalor,
+.experiencia {
+    text-align: center;
+    margin-left: 40px;
+}
+
+.color-b {
+    background-color: black;
+    color: white;
+}
+
+
+/*Formulario*/
+
+:focus {
+    outline: none;
+}
+
+.form {
+    font-family: Play;
+    width: 700px;
+    height: 530px;
+    margin: 50px auto;
+    background: rgb(153, 153, 228);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+form.form_contact {
+    padding: 30px 40px;
+}
+
+form.form_contact h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #303030;
+    margin-bottom: 30px;
+}
+
+form.form_contact .user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+form.form_contact label {
+    font-weight: 600;
+}
+
+form.form_contact input,
+form.form_contact textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #d1d1d1;
+    padding: 8px 0px 5px;
+    margin-bottom: 20px;
+    font-family: Play;
+    color: #5a5a5a;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+form.form_contact textarea {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 90px;
+}
+
+form.form_contact input[type="button"] {
+    width: 180px;
+    background: #4091EC;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    align-self: flex-end;
+    color: #fff;
+    font-family: Play;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+form.form_contact input[type="button"]:hover {
+    background: #3371B6;
+}
+
+
+/*Ventana de errores*/
+
+.modal_wrap {
+    font-family: Play;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mensaje_modal {
+    background: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    padding: 30px 20px 15px;
+}
+
+.mensaje_modal h3 {
+    text-align: center;
+    font-family: Play;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.mensaje_modal h3:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #c5c5c5;
+    margin: 10px 0px 15px;
+}
+
+.mensaje_modal p {
+    font-size: 16px;
+    color: #606060;
+}
+
+#btnClose {
+    display: inline-block;
+    padding: 3px 10px;
+    margin-top: 10px;
+    background: #E25151;
+    color: #fff;
+    border: 2px solid #814141;
+    cursor: pointer;
+    float: right;
+}
+
+.font {
+    font-family: Play;
+}
+
+
+/*gotop*/
+
+.go-top-container {
+    position: fixed;
+    bottom: 4rem;
+    right: 4rem;
+    width: 6.6rem;
+    height: 6.6rem;
+    z-index: -1;
+}
+
+.go-top-button {
+    width: 0rem;
+    height: 0rem;
+    background: #3371B6;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.go-top-button i {
+    position: absolute;
+    font-size: 1.7rem;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    color: #fff;
+    transition: 0.2s;
+}
+
+.show {
+    z-index: 10;
+}
+
+.show .go-top-button {
+    animation: popup 0.3s ease-in-out;
+    width: 6.6rem;
+    height: 6.6rem;
+    z-index: 11;
+}
+
+.show i {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+@keyframes popup {
+    0% {
+        width: 0rem;
+        height: 0rem;
+    }
+    50% {
+        width: 8rem;
+        height: 8rem;
+    }
+    100% {
+        width: 6.6rem;
+        height: 6.6rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .img1 {
+        max-width: 100%;
+    }
+    .unorder {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        background-color: #554848;
+        border-radius: 30px;
+        position: fixed;
+        left: -50px;
+        top: 60px;
+        width: 100%;
+        padding: 20px 0;
+        height: calc(100% - 60px);
+        overflow-y: auto;
+        left: 100%;
+        transition: left 0.3s;
+    }
+    .nav-toggle {
+        margin-right: 30px;
+        margin-top: 25px;
+        display: block;
+        cursor: pointer;
+    }
+    .nav-menu_visible {
+        left: 0;
+    }
+    .item {
+        line-height: 70px;
+    }
+    .box_a {
+        max-width: 100%;
+        margin: 100px 400px;
+        margin-right: 0;
+        padding-bottom: 200px;
+    }
+    .titulo1 {
+        margin-left: 150px;
+    }
+    .text_2 {
+        margin-left: 23px;
+    }
+    .foto1 {
+        margin-left: -170px;
+    }
+    /*cuerpo*/
+    .box-a,
+    .box-b {
+        font-family: Play;
+        margin-bottom: 90px;
+    }
+    .abo {
+        margin-top: 50px;
+        margin-left: 150px;
+        font-size: 45px;
+    }
+    .textoplano {
+        margin-top: 30px;
+    }
+    .text-lg {
+        margin-left: 150px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .section-front {
+        text-align: center;
+        margin-top: 65px;
+        font-size: 30px;
+    }
+    .logos1 {
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-auto-rows: minmax(200px, auto);
+        gap: 20px;
+        padding: 20px;
+    }
+    .logo1 {
+        cursor: pointer;
+        width: 100px;
+        height: 100px;
+        margin-left: 70px;
+        transition: 0.2s;
+    }
+    .logos2 {
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-auto-rows: minmax(200px, auto);
+        gap: 20px;
+        padding: 20px;
+    }
+    .section-front2 {
+        text-align: center;
+        margin-top: 90px;
+        font-size: 30px;
+    }
+    .lg {
+        display: flex;
+        flex-direction: column;
+    }
+    .logos3 {
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-auto-rows: minmax(200px, auto);
+        gap: 20px;
+        padding: 20px;
+    }
+    /*Box b*/
+    .abo {
+        padding-top: 40px;
+    }
+    .column1 {
+        display: flex;
+        align-items: center;
+        margin-left: -40px;
+        margin-top: 50px;
+    }
+    .column2 {
+        display: flex;
+        align-items: center;
+        margin-left: -40px;
+        margin-top: 80px;
+        padding-bottom: 70px;
+    }
+}
+
+@media (max-width: 600px) {
+    .img1 {
+        max-width: 100%;
+    }
+    .unorder {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        background-color: #554848;
+        border-radius: 30px;
+        position: fixed;
+        left: -50px;
+        top: 60px;
+        width: 100%;
+        padding: 20px 0;
+        height: calc(100% - 60px);
+        overflow-y: auto;
+        left: 100%;
+        transition: left 0.3s;
+    }
+    .nav-toggle {
+        margin-right: 30px;
+        margin-top: 25px;
+        display: block;
+        cursor: pointer;
+    }
+    .nav-menu_visible {
+        left: 0;
+    }
+    .item {
+        line-height: 70px;
+    }
+    .box_a {
+        flex-direction: column;
+        max-width: 100%;
+        margin: 100px 400px;
+        margin-right: 0;
+        padding-bottom: 200px;
+    }
+    .present {
+        margin-top: 50px;
+    }
+    .text_md {
+        margin-left: -370px;
+    }
+    .titulo1 {
+        margin-left: -250px;
+    }
+    .text_2 {
+        margin-left: -340px;
+    }
+    .foto1 {
+        margin-left: -180px;
+    }
+    /*cuerpo*/
+    .box-a,
+    .box-b {
+        font-family: Play;
+        margin-bottom: 90px;
+    }
+    .abo {
+        margin-left: 240px;
+    }
+    .section-front {
+        text-align: center;
+        margin-top: 65px;
+        font-size: 30px;
+    }
+    .logos1 {
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-auto-rows: minmax(200px, auto);
+        gap: 20px;
+        padding: 20px;
+    }
+    .logo1 {
+        cursor: pointer;
+        width: 100px;
+        height: 100px;
+        margin-left: 70px;
+        transition: 0.2s;
+    }
+    .logos2 {
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-auto-rows: minmax(200px, auto);
+        gap: 20px;
+        padding: 20px;
+    }
+    .section-front2 {
+        text-align: center;
+        margin-top: 90px;
+        font-size: 30px;
+    }
+    .lg {
+        display: flex;
+        flex-direction: column;
+    }
+    .logos3 {
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-auto-rows: minmax(200px, auto);
+        gap: 20px;
+        padding: 20px;
+    }
+    /*Box b*/
+    .column1 {
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-auto-rows: minmax(200px, auto);
+        gap: 20px;
+        padding: 20px;
+    }
+    .column2 {
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-auto-rows: minmax(200px, auto);
+        gap: 20px;
+        padding: 20px;
+    }
+    .form {
+        font-family: Play;
+        width: 500px;
+        height: 530px;
+        margin: 50px auto;
+        background: rgb(153, 153, 228);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+}
